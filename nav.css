@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: sans-serif;
+    overflow-x: hidden;
+    background-image: url(yes.jpeg);
+    background-size: cover;
+    overflow-y: hidden;
+  }
+  
+  nav {
+    background-color: rgb(66, 66, 66);
+    justify-content: space-between;
+    color: rgb(255, 255, 255);
+    position: fixed;
+    top: 0;
+    display: flex;
+    height: 69px;
+    width: 100%;
+    padding: 18px;
+    align-items: center;
+    box-sizing: border-box;
+    z-index: 5;
+  }
+
+  nav .logo {
+    margin-left: 30px;
+    letter-spacing: 5px;
+    font-weight: 300;
+    font-size: 26px;
+  }
+
+  nav ul {
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    list-style: none;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: white;
+    padding: 7px;
+    border-radius: 2px;
+    transition: 0.4s;
+}
+
+nav ul a:hover {
+    text-decoration: none;
+    background-color: rgb(168, 168, 168);
+}
+
+.wadah {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  flex-wrap: wrap;
+  
+}
+
+.wadah .kartu:hover {
+  transform: scale(1.15);
+}
+
+.wadah .kartu {
+  width: 200px;
+  height: 300px;
+  background: rgb(238, 238, 238);
+  box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  margin: 200px 60px;
+transition: 0.4s;
+}
+
+
+.wadah .kartu .isi {
+  margin-top: 50px;
+}
+
+.konten {
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.isi h2 {
+  font-size: 18px;
+  margin-top:20px;
+}
